@@ -1,6 +1,6 @@
 var express = require('express');
 var App = express.Router();
-var usuarios = getmodule('/node-projects/rdsi/api/usuario/usuario.js');
+var usuarios = getmodule('/usuario/usuario.js');
 
 /* GET home page. */
 App.get('/') 
